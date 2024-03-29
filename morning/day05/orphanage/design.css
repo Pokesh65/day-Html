@@ -1,0 +1,198 @@
+.top-div{
+    background-color: darkseagreen;
+    display: flex;
+    font-family: "Lucida Console", Courier, monospace;
+    font-style: bold;
+    font-style: normal;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    align-items: center;
+    font-family: cursive;
+    justify-content: space-around;
+}
+.top-div>div>a{
+    color: dark;
+    text-decoration: none;
+    color:black;
+}
+.material-symbols {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 44px;
+    line-height: 1;
+    color:black;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+.donate-div>button{
+    height: 5vh;
+    width: 8vw;
+    font-family: cursive;
+
+}
+.head-div{
+    background: blanchedalmond;
+    height: 30px;
+    padding-top: 11px;
+}
+.head-div>span{
+    margin-left: 15px;
+}
+.head-div>span>i>a{
+    text-decoration: none;
+    color: black;
+    margin-left: -10px;
+    
+}
+.about-div::after ,.home-div::after,.involved-div::after,.sponser-div::after,.contact-div::after{
+   content: '';
+   width: 0;
+   background-color:white;
+   height: 3px;
+   /* background-image: url(./meterial/desktop-wallpaper.jpg); */
+   background-size: cover;
+   display:block;
+   transition: 0.2s linear;
+}
+.about-div:hover::after ,.home-div:hover::after,.involved-div:hover::after,.sponser-div:hover::after,.contact-div:hover::after{
+   width: 100%; 
+   border-radius: 4px;
+   
+}
+
+.head-div>span:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+.involve-sub>ul>li>a{
+    text-decoration: none;
+
+}
+
+.involve-sub>ul>li>a:hover{
+    color: white;
+    text-decoration: underline 2px blanchedalmond solid;
+    cursor: pointer;
+    text-align: center;
+    /* border: 1px solid orange; */
+    background: #034d43;
+    width: 13vw;
+    border-radius: 4px;
+    height: 5vh;
+}
+
+.involve-sub>ul>li{
+    margin-left: -54px;
+    
+}
+.involve-sub>ul>li>a{
+    color: darkblue;
+    margin-left: 30px;
+
+}
+.involved-div{
+    position: relative;
+}
+.involve-sub{
+    display: none;
+}
+.top-div>div:hover .involve-sub{
+
+    display:block;
+    width: 13vw;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color:darkseagreen;
+    
+  
+    
+}
+
+.involve-sub>ul{
+    display: block;
+    margin: 10px;
+    list-style: none;
+    width: 60px;
+}
+.involve-sub ul li{
+    width: 34vw;
+    padding: 5px;
+}
+.body-div{
+    border: 1px solid;
+    width: 67.8vw;
+    border-left: none;
+    height: 85vh;
+    background-image: url(./meterial/child-orphanage-in-.webp);
+    /* background-size: cover; */
+    background-position: center;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+.p-content{
+    border: 1px solid black;
+    /* background-image: url(./meterial/istockphoto-1212995291-612x612.jpg); */
+    /* background-position: center; */
+    /* background-size: cover; */
+    width: 30%;
+    background-color: blanchedalmond;
+    height: 87vh;
+    text-align: center;
+    /* border-radius: 0px 0px 0px 6px; */
+    color: floralwhite;
+    font-family: cursive;
+    font-size: 18px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    position: absolute;
+    margin-left: 68.7%;
+    margin-top: -1%;
+    text-shadow: 2px 0px lightseagreen;
+
+}
+.span-design{
+    
+    text-shadow: 1px 1px #2b2424;
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 1.2%;
+    font-size: 23px;
+    font-family: cursive;
+    font-style: normal;
+    color: black;
+    align-items: center;
+    
+}
+.bold-tag{
+    font-size: xx-large;
+}
+.phara-contant{
+    font-size: small;
+    text-shadow: none;
+    width: 350px; 
+    margin-top: 27px;
+}
+/* about */
+.about-main>h2{
+    font-family: monospace;
+    margin: 90px;
+    margin-left: 0%;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    font-size: 25px;
+    width: 100%;
+    border: 1px solid black;
+    background-image: linear-gradient(to right ,darkseagreen, rgb(179 2 172 / 63%), darkseagreen);
+}

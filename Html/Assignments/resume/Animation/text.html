@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <img src="1.jpeg" alt="" id="img">
+        <button id="btn" onclick="anim()">Shuffle</button>
+    </div>
+
+    <script>
+
+        function shuffle() {
+            const img = document.getElementById("img");
+            let randomNumber = Math.floor(Math.random() * 6) + 1;\
+            console.log(randomNumber);
+            img.setAttribute("src", '${randomNumber}.jpeg');
+        }
+        function anim() {
+
+            setTimeout(shuffle, 1000);
+            const img = document.getElementById("img");
+            img.setAttribute("src", "dice-anim.gif");
+        }
+    </script> 
+</body>
+
+</html>

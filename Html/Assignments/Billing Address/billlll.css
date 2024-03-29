@@ -1,0 +1,36 @@
+input{
+    margin-top: 0.9px;
+}
+[type="radio"]{
+    accent-color: blue;
+}
+.btext{
+    width: 257px;
+    height: 2.5vh;
+    margin-top: -1px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+}
+.btoncolor{
+    border: none;
+    width: 80px;
+    height: 20px;
+    background-color: rgba(92, 87, 87, 0.89);
+    color: white;
+}
+.material{
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+}

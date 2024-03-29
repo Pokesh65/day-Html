@@ -1,0 +1,115 @@
+.logbox{
+    border-radius: 121px;
+    width: 250px;
+    border: none;
+    height: 250px;
+    background: linear-gradient(269deg, #003964,#cb8ad5,#003964);
+    align-items: center;
+    margin-top: 100px;
+}
+.innerBox{
+    margin-top: 190px;
+    margin-top: -15px;
+
+}
+input{
+    width: 250px;
+    padding: 5px;
+
+}
+label{
+    margin-left: -193px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.innerBox>div{
+    margin-top: 30px;
+}
+button{
+    margin-top: 30px;
+    width: 264px;
+    border: none;
+    padding: 5px;
+    background: linear-gradient(269deg,black,#bf1cdd,black);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+button:hover,a:hover{
+    cursor: pointer;
+    color: black;
+    
+
+    
+}
+input,label,button{
+    display: none;
+}
+.logbox:hover,input:hover{
+        cursor: pointer;
+        border: 1px solid ;
+        border-radius: 50px;
+        width: 393px;
+        border: none;
+        height: 508px;
+        background: linear-gradient(269deg, #003964,#cb8ad5,#003964);
+        align-items: center;
+        margin-top: 100px;
+        
+        
+          
+        
+    }
+    .input:hover{
+        display: inline-block;
+    }
+    .label:hover{
+        display: inline-block;
+    }
+    .bottom:hover{ 
+        display: inline-block;
+    }
+
+   
+
+    .innerBox{
+        margin-top: 190px;
+        margin-top: -15px;
+    
+    }
+    .input{
+        width: 250px;
+        padding: 5px;
+    
+    }
+    .label{
+        margin-left: -193px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .innerBox>div{
+        margin-top: 30px;
+    }
+    .button{
+        margin-top: 30px;
+        width: 264px;
+        border: none;
+        padding: 5px;
+        background: linear-gradient(269deg,black,#bf1cdd,black);
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .a{
+        color: white;
+        text-decoration: none;
+    }
+    .button:hover,a:hover{
+        cursor: pointer;
+        color: black;
+        
+    
+        
+    }

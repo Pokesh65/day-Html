@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body style="background-color:rebeccapurple;">
+    <h1 style="color:darkorange; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"
+        title="this is heading">
+        <center><u>HELLO WELCOME EVERYONE</u></center>
+    </h1>
+    <hr>
+    <h3 style="background-color: rgb(255, 100, 28);" title="">
+        <center>Naruto Best Momvements</center>
+    </h3>
+    <center><a href="https://www.youtube.com/embed/xDbg3JWW_hw?start=33" target="Naruto"><img src="../img/Naruto.jpg"
+                width="430" height="300" /></a>
+        <iframe width="450" height="300" style="border:4xp slategrey;"
+            src="https://www.youtube.com/embed/xDbg3JWW_hw?start=33" name="Naruto"></iframe>
+        <a href="https://www.youtube.com/embed/A1lCguarrr4?start=73" target="Naruto"><img src="../img/rock lee.jpg"
+                width="430" height="300"></a>
+    </center>\
+    <a href="" autoplay=""></a>
+    <a href="https://www.youtube.com/embed/miFOKdJkg_E?start=815" target="Naruto"><img src="../img/jiraiyaa.jpg"
+            width="430" height="300"></a>
+    <a href="https://www.youtube.com/embed/q9OSk1bY6MA?start=815" target="Naruto"><img src="../img/guy.jpg" width="450"
+            height="300"></a>
+    <a href="https://www.youtube.com/embed/s90vc0_rd1E?start=815" target="Naruto"><img src="../img/Shikimaroo.jpg"
+            width="430" height="300"></a>
+    <hr>
+    <hr>
+    <center>
+        <table border="3">
+            <thead>
+                <td rowspan="3">
+                    <h1>Tittle</h1>
+                </td>
+                <tr>
+                    <td colspan="4">
+                        <h1>
+                            <center>Narutoo</center>
+                        </h1>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+                        <h3>Character Name<h3></h3>
+                    </td>
+                    <td>
+                        <h3>Character Position</h3>
+                    </td>
+                    <td>
+                        <h3>Nick Name</h3>
+                    </td>
+                    <td>
+                        <h3>Dad Name</h3>
+                    </td>
+                </tr>
+
+            </thead>
+            <tbody>
+                <td rowspan="6"><b>All Details</b></td>
+                <tr>
+
+                    <td><b>Naruto Uzumaki</b></td>
+                    <td>Student</td>
+                    <td>Knucklehead</td>
+                    <td>Ninato Namikaze</td>
+                </tr>
+                <tr>
+                    <td><b>Rock Lee</b></td>
+                    <td>Student</td>
+                    <td>Bushy Broo</td>
+                    <td>Gai</td>
+                </tr>
+                <tr>
+                    <td><b>Jiraiyaa</b></td>
+                    <td>Sensei</td>
+                    <td>pervy sage</td>
+                    <td>Masashi Kishimoto</td>
+
+                </tr>
+                <tr>
+                    <td><b>Guy Blue Beast</b></td>
+                    <td>Sensei</td>
+                    <td>Might Guy</td>
+                    <td>Might Duy</td>
+                </tr>
+                <tr>
+                    <td><b>Shikamaru nara</b></td>
+                    <td>Student</td>
+                    <td>chikajo</td>
+                    <td>Shikaku Nara</td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+
+    <form action="userInfo">
+        <address>add</address>
+    </form>
+    <hr>
+    <hr>
+    <br>
+    <center> <label>Enter Character Name:</label>
+        <input type="text" name="Name" id="01" placeholder="Enter your Fov Character">
+        <br><br>
+        <label>Enter His Position like:</label>
+        <input type="text" name="name1" id="02" placeholder="Enter Character Position"><br><br>
+        <button onclick="submit()">Hit Here</button>
+        <br>
+        <br>
+        <label>Name of CDisplay:</label>
+        <input type="text" name="Display" id="D01" placeholder="Copy of name"><br><br>
+        <label>Position Display:</label>
+        <input type="text" name="display" id="D02" placeholder="Copy of position">
+        <script>
+            function submit() {
+                console.log(document.getElementById('01').value)
+                alert(document.getElementById('01').value)
+                console.log(document.getElementById('02').value)
+                alert(document.getElementById('02').value)
+                document.getElementById('D01').value = document.getElementById('01').value
+                document.getElementById('D02').value = document.getElementById('02').value
+            }
+
+        </script>
+    </center>
+    <hr>
+    <hr>
+    
+</body>
+
+</html>

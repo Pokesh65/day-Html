@@ -1,0 +1,26 @@
+table{
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: gray;
+
+}
+td{
+    padding: 10px 0px 10px 0px;
+}
+td>div>span{
+    margin-right: 4px;
+}
+td>div{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+tr>td>div>span{
+    padding: 2%;
+    border-top-right-radius: 70px;
+    width: 36px;
+    border-bottom-right-radius: 70px;
+    padding-left: 16px;
+   
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <label>First Name</label>
+    <input type="text" name="First" id="First" placeholder="Enter your name">
+
+    <label>Second Name</label>
+    <input type="text" name="second" id="second" placeholder="second name">
+    
+    <button onclick="submit()">Login</button><br><br>
+    <label>Diplay...1v</label>
+    <input type="text" id="display"/>
+    <label>Diplay...2v</label>
+    <input type="text" id="display2"/>
+    <script>
+        function submit()
+        {
+            console.log(document.getElementById('First').value)
+            alert(document.getElementById('First').value)
+            console.log(document.getElementById('second').value)
+            alert(document.getElementById('second').value)
+            //document.getElementById('display').value=document.getElementById('First').value
+            //document.getElementById('display2').value=document.getElementById('second').value
+            
+        }
+    </script>
+        
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="d1">
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+        <p id="p4"></p>
+        <p id="b1"> This is a Html and javascript</p>
+        <p id="b2"></p>
+        <input type="colo" id="id3">   
+
+    </div>
+    <div id="d2">
+        <p class="c1">THis is class In Html</p>
+        <p class="c1">THis is class In Html22</p>
+        
+
+
+    </div>
+
+    
+    <script>
+
+    //Dom
+    document.getElementById("p1").innerHTML="Hello Welcome To Html p1"
+    document.getElementById("p4").innerText="Hello Welcome To Html p4"
+    document.getElementById("p2").innerText="<a href=''>Click Here p2 </a>"  
+    document.getElementById("p3").innerHTML="<a href=''>Click Here p3 </a>"  
+    let word=document.getElementById("b1").textContent
+    console.log(word);
+    document.getElementById("b2").innerHTML=word
+
+    //Creation of new tag
+    let newtag=document.createElement("h4")
+    newtag.innerHTML="Newly Created tag"
+    // document.getElementById("idc").appendChild(newtag)
+    document.getElementById("d1").before(newtag,document.getElementById("p1"))
+
+    //Style Using javaScript
+    document.getElementById("p4").style.fontSize="30px"
+    document.getElementById("id3").style.width="30%"
+    document.getElementById("id3").placeholder="type your name"
+    document.getElementById("id3").type="color"
+
+    //using class methods in Dom
+    //collection and nodes
+    let classex=document.getElementsByClassName("c1")
+    let idex=document.getElementById("p1")
+    console.log(idex);
+    console.log(classex[0]);
+    console.log(classex[0].textContent);
+    console.log(classex[1].textContent);
+ 
+    //Bom Browser object models 
+    //bom key word is window
+    //Screen,navigater,History,alert,confirm,prompt,location
+    //Screen use to take hight and wigth
+    
+    console.log(window.screen.availHeight);
+    console.log(window.screen.availWidth)
+    //navigator cookies enable or disable find out
+    console.log(window.navigator.cookieEnabled);
+    //history use for reload screen after clicking a submit button backward forward reload
+    // history.back()
+    // history.forward()
+    // history.pushState("","https://www.google.com")
+    
+    
+    //toast messages 
+        //alert message
+
+        alert("user failed by entering wrong password")
+        //confirm message okay or cancle
+         let con=confirm("are you sure to entering this page")
+         console.log(con);
+        //prompt message take a input fron the user 
+        let inp=prompt("Enter your name here")
+        console.log(inp);
+
+    //location url path findout
+    // location.href="https://www.bing.com/search?q=chat+gpt&gs_lcrp=EgZjaHJvbWUqBwgAEEUYwgMyBwgAEEUYwgMyBwgBEEUYwgMyBwgCEEUYwgMyBwgDEEUYwgMyBwgEEEUYwgMyBwgFEEUYwgMyBwgGEEUYwgMyBwgHEEUYwgPSAQo2MDA2MTVqMGo0qAIIsAIB&FORM=ANAB01&PC=DCTS"
+    console.log("Location :"+location.href);
+    // console.log(location.path);
+    console.log("Port :"+location.port);
+    // console.log(location.portname);
+    console.log("Path Name :"+location.pathname);
+    console.log("Host "+location.host);
+    console.log("Host Name :"+location.hostname);
+
+        
+ 
+
+
+
+
+
+    
+    
+    </script>
+
+</body>
+</html>

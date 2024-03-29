@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="studentS.css" rel="stylesheet"/>
+     <h2>Student Register Form Using Html</h2>
+</head>
+<body style="color:white;">
+    <center>    
+        <div  style="border: 2px dashed black;
+        width: 55%;">
+    <table>
+       
+        <!--------First name-------->
+        <tr>
+        <td> First Name:</td>
+        <td><input type="text" name="name" placeholder="First Name" id="First">
+        (Max 50 Characters Allowed)</td>
+        </tr>
+        <!--------Second name-------->
+        <tr>
+                <td>Second Name:</td>
+                <td><input type="text" name="2name" placeholder="Second Name" id="second">
+                (Max 50 Characters Allowed)</td>
+        </tr>
+        <!--------Email-------->
+        <tr>
+                <td>Email ID:</td>
+                <td><input type="email" name="mail" placeholder="Email@gmail.com">
+                (Only Mail Id Allowed)</td>
+        </tr>
+         <!--------Phone Number-------->
+         <tr>
+                <td>Phone Number:</td>
+                <td><input type="tel" name="number" placeholder="Enter Number" maxlength="12" block="lang">
+                (10 Digits Only Allowed)</td>
+         </tr>
+         <!-------------gender---------->
+         <tr>
+                <td>Gender:</td>
+                <td><input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="Female">Female</td>
+         </tr>
+         <!----------DBT------------->
+         <tr>
+                <td>Date OF Birth:</td>
+                <td><select name="DOB" id="dob" aria-placeholder="Days">
+                        <option value="-1">Day:</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option >
+                        </select>
+                        <select name="month" id="month">
+                                <option value="-1">Month:</option>
+                                <option value="January">Jan</option>
+                                <option value="February">Feb</option>
+                                <option value="March">Mar</option>
+                                <option value="April">Apr</option>
+                                <option value="May">May</option>
+                                <option value="June">Jun</option>
+                                <option value="July">Jul</option>
+                                <option value="August">Aug</option>
+                                <option value="September">Sep</option>
+                                <option value="October">Oct</option>
+                                <option value="November">Nov</option>
+                                <option value="December">Dec</option>
+                        </select>
+                        <select name="year" id="year">
+                                <option value="-1">Year:</option>
+                                <option value="2019">2023</option>
+                                <option value="2019">2022</option>
+                                <option value="2019">2021</option>
+                                <option value="2019">2020</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                                <option value="2014">2014</option>
+                                <option value="2013">2013</option>
+                                <option value="2012">2012</option>
+                                <option value="2011">2011</option>
+                                <option value="2010">2010</option>
+                                <option value="2009">2009</option>
+                                <option value="2008">2008</option>
+                                <option value="2007">2007</option>
+                                <option value="2006">2006</option>
+                                <option value="2005">2005</option>
+                                <option value="2004">2004</option>
+                                <option value="2003">2003</option>
+                                <option value="2002">2002</option>
+                                <option value="2001">2001</option>
+                                <option value="2000">2000</option>
+                      
+                        
+
+                        </select>
+                </td>
+         </tr>
+         <!---------Address---------->
+         <tr>
+                <td>Address:</td>
+                <td><textarea name="address"  rows="8" cols="35" ></textarea></td>
+         </tr>
+         <!--------city--------->
+         <tr>
+                <td>City:</td>
+                <td><input type="text" name="city" id="c11" placeholder="Chennai">
+                (Max 50 Characters Allowed)
+                </td>
+         </tr>
+         <!-------------pin code-------------->
+         <tr>
+                <td>Pin Code:</td>
+                <td><input type="Number" name="pincode" id="p10" placeholder="PinCode" maxlength="6" minlength="3">
+                (Max 6 Numbers Allowed)</td>
+         </tr>
+         <!-- state -->
+         <tr>
+                <td>State:</td>
+                <td><input type="text" name="state" id="s10" placeholder="State">
+                (Max 50 Characters Allowed)</td>
+         </tr>
+         <!--country  -->
+         <tr>
+                <td>Country:</td>
+                <td><input type="text" name="Country" id="C10" placeholder="Country">
+                (Max 50 Characters Allowed)</td>
+
+         </tr>
+         <!-- Hobbies -->
+         <tr>
+                <td>Hobbies:</td><td><input type="checkbox" name="Hobbies Drawing"  value="Drawing">Drawing
+                <input type="checkbox" name="HobbySinging" value="Singing">Singing
+                <input type="checkbox" name="HobbyDancing" value="Dancing">Dancing
+                <input type="checkbox" name="HobbySkethching" value="Sketching">Sketching
+                <input type="checkbox" name="HobbyOther" value="others">Others<br>
+                <input type="text" name="Other Hobbies" placeholder="Ex-Teaching">
+                (Max 50 Characters Allowed)
+                
+         </td>
+         </tr>
+         <!-- Qualification -->
+         <tr>
+                <td>Qualification:</td>
+                <td>
+                <input type="checkbox" name="Check1" id="Check1" value="High School"  onclick="selectOnlyThis(this.id)"/> High School(10th) <br>
+                <input type="checkbox" name="Check2" id="Check2"  value="Higher School" onclick="selectOnlyThis(this.id)" /> Higher School(12th) <br>
+                <input type="checkbox" name="Check3" id="Check3"  value="Graduation" onclick="selectOnlyThis(this.id)"/> Graduation(Bachelors) <br>
+                <input type="checkbox" name="Check4" id="Check4"  value="Post Graduation" onclick="selectOnlyThis(this.id)" /> Post Graduation(Masters) <br>
+                <input type="checkbox" name="Check5" id="Check5"  value="Phd" onclick="selectOnlyThis(this.id)"/> Phd
+                </td>
+         </tr>
+         <!-- Courses Applied For -->
+         <tr> 
+                <td>Courses Applied For:</td>
+                <td>
+                    <input type="radio" name="Course" value="BCA"> BCA(Bachelor of Computer Applications)<br>
+                    <input type="radio" name="Course" value="B.Com"> B.Com(Bachelor of Commerce)<br>
+                    <input type="radio" name="Course" value="B.Sc"> B.Sc(Bachelor of Science)<br>
+                    <input type="radio" name="Course" value="B.A"> BA(Bachelor of Arts)<br>
+                    <input type="radio" name="Course" value="BCA"> MCA(Master of Computer Applications)<br>
+                    <input type="radio" name="Course" value="B.Com"> M.Com(Master of Commerce)<br>
+                    <input type="radio" name="Course" value="B.Sc"> M.Sc(Master of Science)<br>
+                    <input type="radio" name="Course" value="B.A"> MA(Master of Arts)<br>
+                </td>
+
+         </tr>
+         <!-- Button -->
+         <tr>
+                <td colspan="2" align="center">
+                        <div >
+                        <input type="submit" onclick="submit()" name="Submit"value="Submit" placeholder="Submit">
+                        <input type="reset" onclick="submit()" name="Reset" value="Reset" placeholder="Reset">
+                        </div>
+                </td>
+         </tr>
+         
+        
+    </table>
+</div>
+</center>
+<script>
+       function selectOnlyThis(id) {
+    for (var i = 1;i <= 4; i++)
+    {
+        document.getElementById("Check" + i).checked = false;
+    }
+    document.getElementById(id).checked = true;
+}
+function submit()
+        {
+            console.log(document.getElementById('First').value)
+            alert(document.getElementById('First').value)
+            console.log(document.getElementById('second').value)
+            alert(document.getElementById('second').value)
+            document.getElementById('display').value=document.getElementById('First').value
+            document.getElementById('display2').value=document.getElementById('second').value
+            
+        }
+</script>
+</body>
+</html>

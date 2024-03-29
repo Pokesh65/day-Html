@@ -1,0 +1,33 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+.main{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background: black;
+}
+img{
+width: 150px;
+border-radius: 20px;
+height: 150px;
+}
+#btn{
+width:150px;
+height: 40px;
+margin: 20px;
+font-size: 1.2ren;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 700; color: rgb(0, 0, 0);
+border: none;
+cursor: pointer;
+outline: none;
+background: #21d4fd;
+background-color: white;
+border-radius: 20px;
+}

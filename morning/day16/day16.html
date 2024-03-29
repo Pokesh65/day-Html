@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="id1"></p>
+    <!-- <input onchange="gettext(this)" type="text"/> -->
+    <input id="in1" type="text"/>
+    <!-- onclick events -->
+    <!-- <button onclick="showcon()"  id="bid1">Click</button> -->
+    <button id="bid1">Click</button>
+    <script>
+        // Eventlistener methods
+        document.getElementById("in1").addEventListener("change",gettext)//without parameters
+        document.getElementById("bid1").addEventListener("click",showcon)
+        function showcon(){
+            document.getElementById("id1").innerHTML=word
+        }
+
+        function gettext(g){
+            console.log(g.target.value);
+            word=g.target.value
+            // document.getElementById("id1").innerHTML=g.value
+
+        }
+
+    </script>
+    
+</body>
+</html>

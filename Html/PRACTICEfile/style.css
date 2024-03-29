@@ -1,0 +1,179 @@
+
+.top_box{
+    display: flex;    
+    
+}
+.icon{
+    width: 130px;
+    height: 75px;
+
+}
+.icon>img{
+    border-radius: 5px;
+    border-color: blue solid 2px;
+}
+.Address{
+    margin-left: 2px;
+    border: solid 2px black;
+    width: 130px;
+    height: 69px;
+    border-radius: 5px;
+    background-color: black;
+}
+.Address>a{
+    
+    
+    text-decoration-line: none;
+}
+.Address>a>p{
+    -webkit-text-stroke-width: thick;
+    font-size: 16px;
+    font-family: monospace;
+    padding: -9px -1px 2px 0px;
+    /* padding-top: 0%; */
+    /* padding-bottom: 15px; */
+    padding-left: 16px;
+    color: white;
+}
+.search{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    border:black solid 2px;
+    width: 470px;
+    height: 70px;
+    border-radius: 7px;
+}
+.sh-category>select{
+    height: 72px;
+    color: white;
+    /* border-radius: 5px; */
+    border-top-left-radius: 5px;
+    background-color: black;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.sh-box{
+/* border:solid black 1px; */
+width: 350px;
+height: 70px;
+}
+.sh-box>input{
+    border-bottom: none;
+    width: 308px;
+    height: 68px;
+    border-top: none;
+}
+.sh-icon>span{
+    font-size: 40px;
+    order: solid;
+    /* border: black 1px solid; */
+    height: 54px;
+    background-color: orange;
+    width: 52px;
+    padding-left: 10px;
+    padding-top: 16px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+
+}
+.language>select{
+    margin-left: 5px;
+    width: 130px;
+    padding-left: 13px;
+    height: 75px;
+    font-size: 16px;
+    -webkit-text-stroke-width: medium;
+    color: white;
+    /* border-radius: 5px; */
+    border-top-left-radius: 5px;
+    background-color: black;
+    border-radius: 5px;
+}
+.login{
+    color: white;
+    margin-left: 2px;
+    border: solid 2px black;
+    width: 130px;
+    height: 69px;
+    border-radius: 5px;
+    background-color: black;
+    -webkit-text-stroke-width: medium;
+    font-size: 16px;
+    font-family: monospace;
+    padding: -9px -1px 2px 0px;
+    /* padding-top: 0%; */
+    /* padding-bottom: 15px; */
+    padding-left: 16px;
+    color: white;
+
+}
+.login>p{
+    padding-top: 2px;
+}
+.return{
+    color: white;
+    margin-left: 2px;
+    border: solid 2px black;
+    width: 130px;
+    height: 69px;
+    border-radius: 5px;
+    background-color: black;
+    -webkit-text-stroke-width: medium;
+    font-size: 16px;
+    font-family: monospace;
+    padding: -9px -1px 2px 0px;
+    /* padding-top: 0%; */
+    /* padding-bottom: 15px; */
+    padding-left: 16px;
+    color: white;
+    
+}
+.return>p{
+    padding-left: 23px;
+
+
+}
+.cart{
+    display: flex;
+    color: white;
+    margin-left: 2px;
+    border: solid 2px black;
+    width: 130px;
+    height: 69px;
+    border-radius: 5px;
+    background-color: black;
+    /* -webkit-text-stroke-width: medium; */
+    font-size: 16px;
+    font-family: monospace;
+    padding: -9px -1px 2px 0px;
+    /* padding-top: 0%; */
+    /* padding-bottom: 15px; */
+    padding-left: 16px;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.ss{
+    padding-left: -12px;
+    font-size: 50px;
+}
+.cl{
+    margin-left: -19px;
+    font-size: 25px;
+    -webkit-text-stroke-width: medium;
+
+}
+:hover>.Address{
+    border-color: white;
+}
+:hover>.icon>img{
+    border-color: white;
+}
+:hover>.search{
+    border:orange solid 2px;
+
+}

@@ -1,0 +1,206 @@
+button{
+    width: 10%;
+    padding: 1% 0% 1% 0%;
+    border-radius: 12px;
+    font-family: monospace;
+    /* color: white; */
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    padding: 15px 0px 15px 0px;
+
+}
+.child{
+left: 50%;
+top: 50%;
+transform: translate(0%, 150%);
+}
+.primary{
+    background-color: blue;
+    color: white;
+
+}
+.secondary{
+    background-color: grey;
+    color: white;
+
+}
+.success{
+    background-color: green;
+    color: white;
+
+}
+.danger{
+    background-color: red;
+    color: white;
+
+}
+.warning{
+    background-color: yellow;
+    color:black;
+
+}
+.info{
+    background-color: aqua;
+    color:black;
+
+}
+.light{
+    background-color: beige;
+    color:black;
+
+}
+.dark{
+    background-color: black;
+    color: white;
+
+}
+.link{
+    background-color: transparent;
+    border: transparent;
+    text-decoration: underline;
+    color: blue;
+
+    
+}
+.primary:hover{
+
+    background: linear-gradient(to right, rgb(3, 3, 95) ,white 50%,rgb(3, 3, 95));
+
+
+}
+.secondary:hover{
+    background-color: rgb(66, 62, 62);
+
+}
+.success:hover{
+    background-color: rgb(5, 66, 5);
+
+}
+.danger:hover{
+    background-color: rgb(136, 11, 11);
+
+}
+.warning:hover{
+    background-color: rgb(114, 114, 11);
+
+}
+.info:hover{
+    background-color: rgb(7, 97, 97);
+
+}
+.light:hover{
+    background-color: rgba(255, 255, 255, 0.904);
+    color: black;
+
+}
+.dark:hover{
+    background-color: rgb(78, 74, 68);
+   
+
+}
+.link:hover{
+    color:rgb(3, 3, 73);
+
+    text-decoration:underline rgb(3, 3, 73);
+
+}
+.primary1{
+    border: 1px solid;
+    border-color: blue;
+    color:blue;
+
+}
+.secondary1{
+    border: 1px solid;
+    border-color: grey;
+    color:gray;
+
+}
+.success1{
+    border: 1px solid;
+    border-color: green;
+    color:green;
+
+}
+.danger1{
+    border: 1px solid;
+    border-color: red;
+    color: red;
+
+}
+.warning1{
+    border: 1px solid;
+    border-color: yellow;
+    color:yellow;
+
+}
+.info1{
+    border: 1px solid;
+    border-color: aqua;
+    color:aqua;
+
+}
+.light1{
+    border: 1px solid;
+    border-color:lightsteelblue;
+    color:lightsteelblue;
+
+}
+.dark1{
+    border: 1px solid;
+    border-color: black;
+    color:black;
+
+
+}
+.link1{
+    background-color: transparent;
+    border: transparent;
+    text-decoration: underline;
+    color: blue;
+}
+.primary1:hover{
+    color: white;
+    background-color: blue;
+}
+.secondary1:hover{
+    color:white;
+    background-color: gray;
+
+}
+.success1:hover{
+    color:white;
+    background-color: green;
+
+}
+.danger1:hover{
+    color:white;
+    background-color: red;
+    
+}
+.warning1:hover{
+    color: black;
+    background-color: yellow;
+
+}
+.info1:hover{
+   color: black;
+    background-color:aqua;
+
+}
+.light1:hover{
+   color: black;
+    background-color:lightsteelblue;
+
+}
+.dark1:hover{
+   background-color: black;
+    color:white;
+
+
+}
+.link1:hover{
+    background-color:rgb(61, 0, 61);
+    color:white;
+}
